@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", //컴파일 결과 생성되는 자바스크립트 코드의 버전 결정, ESNext는 최신 자바스크립트를 의미함
+    "module": "ESNext", // 컴파일 결과 생성되는 자바스크립트 코드의 모듈 시스템 결정
+    "outDir": "dist", // 컴파일 결과 생성되는 자바스크립트 파일들의 위치 결정
+    "strict": true, // 엄격한 타입 검사 여부 설정
+    "moduleDetection": "force", // 모든 타입스크립트 파일(.ts)에 export 키워드를 자동으로 추가하여 격리된 모듈로 취급되도록 만드는 옵션
+    "moduleResolution": "node" // undici-types 에러 해결
+  },
+  "include": [
+    "src"
+  ]
+  // tsc로 컴파일 할 타입스크립트 파일의 범위 설정
+}
