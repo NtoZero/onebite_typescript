@@ -9,3 +9,14 @@
 /node_modules/
 /.idea/
 /dist/
+node_modules/
+
+# Typescript 컴파일 결과
+dist/
+**/src/**/*.js
+
+
+# 하지만 특정 JS 파일은 포함
+!src/config.js
+!src/legacy.js
+!src/polyfill.js
