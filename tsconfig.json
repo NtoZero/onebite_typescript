@@ -10,5 +10,7 @@
   "ts-node": {
     "esm": true
   },
-  "include": ["src"]
+  "include": [
+    "section1/src"
+  ]
 }
